@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google Drive API</title>
+</head>
+<body>
+    <h1>Buscar archivos en Google Drive</h1>
+   <form action="{{ url_for('callback', folder_name='')}}" method="get">
+        <input type="text" name="folder_name" placeholder="Folder name">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
